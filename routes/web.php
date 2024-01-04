@@ -39,3 +39,6 @@ Route::put('/editTask/{task}',[tasksController::class,'taskEdit'])->name('editTa
 
 //delete task
 Route::delete('/deleteTask/{task}',[tasksController::class,'taskDelete'])->name('deleteTask');
+
+
+///hello
