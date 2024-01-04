@@ -1,7 +1,7 @@
 @props(['tasks'])
 @if (empty(count($tasks)))
 <div class="alert alert-danger text-center" role="alert">
-    Aucune résultat !
+    Aucun résultat !
 </div>
 @endif
 @foreach ($tasks as $item)
