@@ -27,7 +27,7 @@
           <label for="" class="form-label">Confirmation de mot passe</label>
           <input type="password" value="" class="form-control" name="password_confirmation" id="">
         </div>
-        <button type="submit" class="btn btn-dark w-100 mb-3">Inscrire</button>
+        <button type="submit" class="btn btn-dark w-100 mb-3">S'inscrire</button>
         <br>
         <center ><a href="/" class="text-muted mt-4 text-center">Annuler</a></center>
     </form>
