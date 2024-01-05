@@ -14,7 +14,7 @@
                 <button type="submit" class="btn btn-secondary w-100">+</button>
             </div>
         </form>
-      <x-tasks :tasks='$datatasks'>
+      <x-tasks :tasks='$datatasks' body="tasks">
 
       </x-tasks>
     </div>

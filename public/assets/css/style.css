@@ -1,5 +1,3 @@
-body.form {}
-
 .form input {
     border: 3px solid black;
     border-radius: 0;
@@ -54,6 +52,6 @@ button.btn.btn-trash {
     right: 0;
 }
 
-input.form-control {
+.tasks input.form-control {
     border-radius: 0px 3px 3px 0px !important;
 }

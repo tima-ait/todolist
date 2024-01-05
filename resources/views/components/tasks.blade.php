@@ -1,11 +1,11 @@
-@props(['tasks'])
+@props(['tasks','body'])
 @if (empty(count($tasks)))
 <div class="alert alert-danger text-center" role="alert">
     Aucun résultat !
 </div>
 @endif
 @foreach ($tasks as $item)
-<form action="{{ route('editTask',$item->id) }}" id="form{{ $item->id }}" method="post">
+<form action="{{ route('editTask',$item->id) }}" id="form{{ $item->id }}" method="post" class="{{ $body }}">
     @csrf
     @method('put')
     <div class="input-group mb-3">
